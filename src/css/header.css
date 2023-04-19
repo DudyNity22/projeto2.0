@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #001D3D;
+}
+
+
+
+.Header-Container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #000814;
+    height: 70px;
+    width: 100vw;
+    box-shadow: 0px 4px 12px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.icon-login {
+    color: white;
+    margin-right: 20px;
+}
+
+.icon-sidebar {
+    color: white; 
+    margin-left: 20px;
+}
+
+
+.icon-unifique {
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+}
+
+.icon-unifique>img {
+    margin-bottom: 8px;
+    height: 40px;
+    max-width: 100%;
+}
